@@ -1,0 +1,40 @@
+@font-face
+{
+	font-family: 'Raleway';
+	src: url('police/Raleway-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face
+{
+	font-family: 'Raleway';
+	src: url('police/Raleway-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: bold;
+}
+
+body
+{
+	font-family: 'Raleway';
+	font-weight: normal;
+}
+
+footer
+{
+	background-color: #F2F2F2;
+	display: flex;
+	justify-content: space-between;
+}
+
+.h1
+{
+	font-family: 'Raleway';
+	font-weight: bold;
+}
+
+#assistance
+{
+	flex: 0.5;
+
+}
