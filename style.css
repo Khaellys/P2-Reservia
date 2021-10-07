@@ -20,17 +20,80 @@ body
 	font-weight: normal;
 }
 
+.h1
+{
+	font-family: 'Raleway';
+	font-weight: bold;
+}
+
+input, button
+	{
+		font-family: 'Raleway';
+		font-weight: bold;
+		padding: 10px 10px 15px 15px;
+	}
+
+input[type=search]
+{
+	border: 1px solid #F2F2F2;
+}
+
+button
+{
+	border: 1px solid #0065FC;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #0065FC;
+	color: #FFFFFF;
+}
+
+section
+{
+	background-color: #F2F2F2;
+	border-radius: 20px;
+	padding: 40px 40px 40px 40px;
+}
+
+.hebergement
+{
+
+}
+
+span
+{
+	font-weight: bold;
+}
+
+.cards
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+
+.card
+{
+	flex: 0 0 200px;
+	margin: 10px;
+	border: 6px solid white;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px grey;
+	background-color: white;
+}
+
+.card img
+{
+	max-width: 100%;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
 footer
 {
 	background-color: #F2F2F2;
 	display: flex;
 	justify-content: space-between;
-}
-
-.h1
-{
-	font-family: 'Raleway';
-	font-weight: bold;
+	padding: 40px 40px 40px 40px;
 }
 
 #assistance
