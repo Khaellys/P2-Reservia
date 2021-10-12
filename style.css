@@ -32,6 +32,17 @@ nav
 	float: right;
 }
 
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+text-decoration: overline 1px #0065FC;
+color: #0065FC;
+}
+
 .liens
 {
     display: inline;
@@ -86,7 +97,7 @@ li
 	font-weight: bold;	
 }
 
-.find:hover 
+li:hover 
 {
 		background-color: #DEEBFF;
 	}
