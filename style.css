@@ -113,6 +113,16 @@ li:hover
 	color: #0065FC;
 }
 
+.fa-info
+{
+	border: 2px solid #F2F2F2;
+	width: 8px;
+	height: 8px;
+	border-radius: 20px;
+	padding: 10px;
+	margin-right: 5px;
+}
+
 .blocs
 {
 	background-color: #F2F2F2;
