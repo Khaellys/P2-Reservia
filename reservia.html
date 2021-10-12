@@ -2,27 +2,38 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<link rel='stylesheet' href="style.css" type="text/css" />
+<link rel='stylesheet' href="style.css" type="text/css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
+    <div id="page">
 	<header>
-
 		<p><img src="images/logo/Booki.png" alt="logo" /></p>
-		<h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+        <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
 		<p>En plein centre ville ou en pleine nature</p>
 
 		<form method="post" action="traitement.php">
-			<p><input type="search" name="ville" id="search" placeholder="Marseille, France" />
-				<button>Rechercher</button></p>
+			<p><button class="maps"><i class="fas fa-map-marker-alt"></i></button><input type="search" name="ville" id="search" placeholder="Marseille, France" /><button class="rechercher">Rechercher</button></p><br>
+
+			<ul><span>Filtres</span>
+				<li class="find"><i class="fas fa-money-bill-wave icons"></i>Economique</li>
+				<li class="find"><i class="fas fa-child icons"></i>Familial</li>
+				<li class="find"><i class="fas fa-heart icons"></i>Romantique</li>
+				<li class="find"><i class="fas fa-dog icons"></i>Animaux autorisés</li>
+			</ul><br>
 
 			<p>Plus de 800 logements sont disponibles dans cette ville</p>
 		</form>
-
-	</header>
+</header>
+   
+   <nav>
+	    <ul>
+			<li class="liens">Hébergements</li>
+			<li class="liens">Activités</li>
+		</ul>
+	</nav>
 
 	<section>
-
+<div class="blocs">
 			<h1>Hébergements à Marseille</h1>
 			<main class="cards">
 				<article class="card">
@@ -73,10 +84,13 @@
 				</div>
 			</article>
 		</main>
-	</section>
 
-		<section>
+		<h1>Les plus populaires</h1>
+	</div>
+
+		<div class="blocs">
 			<h1>Activités à Marseille</h1>
+		</div>
 		</section>
 	
 	<footer>
@@ -99,5 +113,6 @@
 			<p>Nous contacter</p>
 		</div>
 	</footer>
+</div>
 </body>
 </html>

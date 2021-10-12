@@ -20,6 +20,27 @@ body
 	font-weight: normal;
 }
 
+header, nav
+{
+	display: inline-block;
+	vertical-align: top;
+	justify-content: space-between;
+}
+
+nav
+{
+	float: right;
+}
+
+.liens
+{
+    display: inline;
+	justify-content: flex-start; 
+    font-family: 'Raleway';
+    font-weight: normal;
+	border: hidden;
+}
+
 .h1
 {
 	font-family: 'Raleway';
@@ -38,7 +59,14 @@ input[type=search]
 	border: 1px solid #F2F2F2;
 }
 
-button
+.maps
+{
+	border: 1px solid #F2F2F2;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.rechercher
 {
 	border: 1px solid #0065FC;
 	border-top-right-radius: 10px;
@@ -47,16 +75,41 @@ button
 	color: #FFFFFF;
 }
 
-section
+li
+{
+	display: inline;
+	justify-content: flex-start;
+	border: 2.5px solid #F2F2F2;
+	border-radius: 30px;
+	padding: 12px 10px 12px 0px;
+	margin: 5px;
+	font-weight: bold;	
+}
+
+.find:hover 
+{
+		background-color: #DEEBFF;
+	}
+
+.icons
+{
+    border: 2px solid #DEEBFF;
+	background-color: #DEEBFF;
+	border-radius: 30px;
+	padding: 15px;
+	margin-right: 5px;
+	margin-left: none;
+	color: #0065FC;
+}
+
+.blocs
 {
 	background-color: #F2F2F2;
 	border-radius: 20px;
 	padding: 40px 40px 40px 40px;
-}
-
-.hebergement
-{
-
+	display: inline-block;
+	justify-content: space-between;
+	flex-wrap: nowrap;
 }
 
 span
