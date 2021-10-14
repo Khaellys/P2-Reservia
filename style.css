@@ -129,15 +129,23 @@ li:hover
 	margin-right: 5px;
 }
 
-#hébergements, #populaires
+.hébergements
+{
+	width: 40%;
+}
+
+.populaires
+{
+	width: 40%;
+}
+
+.hôtels
 {
 	background-color: #F2F2F2;
 	border-radius: 20px;
 	padding: 40px 40px 40px 40px;
 	display: inline-block;
-	justify-content: space-between;
-	flex-wrap: nowrap;
-}
+	}
 
 span
 {
