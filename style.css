@@ -299,6 +299,11 @@ span
 	color: #F2F2F2;
 }
 
+.hcard .fa-star
+{
+	padding-top: 60px;
+}
+
 /*-------Bloc Activités-------*/
 
 #activités
