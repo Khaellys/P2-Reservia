@@ -64,15 +64,16 @@ ul
 {	
 	font-family: 'Raleway';
 	font-weight: normal;
-	display: inline-flex;
-	justify-content: space-between;
+	display: flex;
 	list-style-type: none;
+	padding: 0;
+	justify-content: space-around;
 }
 
 nav a
 {
 text-decoration: none;	
-padding-top: 30px;
+padding-top: 20px;
 }
 
 nav a:hover
@@ -196,7 +197,7 @@ h3
 
 .populaires
 {
-	width: 540px;
+	width: 550px;
 	height: 900px;
 	float: right;
 }
@@ -261,6 +262,12 @@ span
 {
 	display: flex;
 	justify-content: space-between;
+	width: 500px;
+}
+
+.fa-chart-line
+{
+	padding-top: 20px;
 }
 
 .hcard
