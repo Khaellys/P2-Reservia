@@ -1,0 +1,17 @@
+body
+{
+	margin: 0;
+}
+
+.filtre
+{
+	display: inline-block;
+	border: 2.5px solid #F2F2F2;
+	border-radius: 40px;
+	padding: 4px 25px 4px 0px;
+}
+
+.hébergements
+{
+	background-color: white;
+}
