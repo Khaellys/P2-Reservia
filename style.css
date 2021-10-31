@@ -30,6 +30,11 @@ body
 	margin: 0 3% 0 3%;
 }
 
+a
+{
+	color: black;
+}
+
 a:visited
 {
 	color: black;
@@ -115,15 +120,11 @@ input[type=search]
 	color: #FFFFFF;
 }
 
-ul
-{
-	padding: 0;
-}
-
-span
+h3
 {
 	font-family: 'Raleway';
 	font-weight: bold;
+	display: inline-block;
 }
 
 .filtre
@@ -189,13 +190,15 @@ span
 
 .hébergements
 {
-	width: 60%;
-	margin-right: 40px;
+	width: 67%;
+	margin-right: 20px;
 }
 
 .populaires
 {
-	width: 33%;
+	width: 540px;
+	height: 900px;
+	float: right;
 }
 
 /*-------Propriétés et animations cards-------*/
