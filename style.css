@@ -23,8 +23,6 @@ body
 	margin: auto;
 	max-width: 100%;
 	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
 }
 
 .global
@@ -32,26 +30,38 @@ body
 	margin: 0 3% 0 3%;
 }
 
-header, nav
+a:visited
+{
+	color: black;
+}
+
+/*-------Header-------*/
+
+#logo, nav
 {
 	display: inline-block;
 	vertical-align: top;
 	justify-content: space-between;
+	padding-top: 30px;
 }
 
-/*-------Menu-------*/
+#logo
+{
+	width: 150px;
+}
 
 nav
 {
 	float: right;
 }
 
-nav
+ul
 {	
-	padding-top: 30px;
 	font-family: 'Raleway';
 	font-weight: normal;
-	word-spacing: 200px;
+	display: inline-flex;
+	justify-content: space-between;
+	list-style-type: none;
 }
 
 nav a
@@ -62,18 +72,12 @@ padding-top: 30px;
 
 nav a:hover
 {
-border-top: 1px solid #0065FC;
+border-top: 3px solid #0065FC;
 color: #0065FC;
+padding-top: 45px;
 }
 
-.liens
-{
-    display: inline;
-	justify-content: flex-start; 
-    font-family: 'Raleway';
-    font-weight: normal;
-	border: hidden;
-}
+
 
 /*-------Filtres-------*/
 
@@ -122,7 +126,7 @@ span
 	font-weight: bold;
 }
 
-li
+.filtre
 {
 	display: inline;
 	justify-content: flex-start;
@@ -133,7 +137,7 @@ li
 	font-weight: bold;	
 }
 
-li:hover 
+.filtre:hover 
 {
 		background-color: #DEEBFF;
 		cursor: pointer;
@@ -232,8 +236,6 @@ span
 	border-radius: 30px;
 	background-color: white;
 	box-shadow: 1px 10px 14px 5px rgba(222,214,214,0.75);
--webkit-box-shadow: 1px 10px 14px 5px rgba(222,214,214,0.75);
--moz-box-shadow: 1px 10px 14px 5px rgba(222,214,214,0.75);
 }
 
 .card img
@@ -269,9 +271,8 @@ span
 	border-radius: 30px;
 	background-color: white;
 	box-shadow: 1px 10px 14px 5px rgba(222,214,214,0.75);
--webkit-box-shadow: 1px 10px 14px 5px rgba(222,214,214,0.75);
--moz-box-shadow: 1px 10px 14px 5px rgba(222,214,214,0.75);
 }
+
 
 .hcard img
 {
@@ -284,7 +285,11 @@ span
 
 .hcard .text
 {
-	padding: 0 10px 0 10px;
+	padding: 0 10px 0px 10px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 /*-------Icônes Etoiles-------*/
@@ -299,10 +304,11 @@ span
 	color: #F2F2F2;
 }
 
-.hcard .fa-star
+.hstar
 {
-	padding-top: 60px;
+	padding-bottom: 10px;
 }
+
 
 /*-------Bloc Activités-------*/
 
@@ -320,8 +326,6 @@ span
 	border-radius: 30px;
 	background-color: white;
 	box-shadow: 1px 10px 14px 5px rgba(222,214,214,0.75);
--webkit-box-shadow: 1px 10px 14px 5px rgba(222,214,214,0.75);
--moz-box-shadow: 1px 10px 14px 5px rgba(222,214,214,0.75);
 }
 
 .dcard img
