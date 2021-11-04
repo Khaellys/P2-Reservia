@@ -1,10 +1,22 @@
 body
 {
 	margin: auto;
-	max-width: 100%;
+	width: 100%;
+}
+
+.global
+{
+	margin: 0;
+	max-width: 700px;
 }
 
 /*-------Header-------*/
+
+header
+{
+	display: flex;
+	flex-direction: column;
+}
 
 #logo
 {
@@ -59,16 +71,42 @@ border-top: none;
 
 /*-------Blocs hébergements & Les plus populaires-------*/
 
-.hébergements, .hotels
+.hotels
 {
 	display: flex;
 	flex-direction: column-reverse;
 	flex-wrap: wrap;
+	width: 100%;
 }
 
 .hébergements
 {
-	background-color: white;
+	background-color: white;	
+}
+
+.cards
+{
+	width: 100%;
+
+}
+
+img
+{
+	max-width: 100%;
+}
+
+.hcard
+{
+	max-width: 100%;
+}
+
+/*-------Bloc Activités-------*/
+
+#activités
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }
 
 /*-------Footer-------*/
