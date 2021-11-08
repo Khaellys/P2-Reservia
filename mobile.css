@@ -1,13 +1,14 @@
 body
 {
 	margin: auto;
-	width: 100%;
+	max-width: 500px;
 }
 
 .global
 {
-	margin: 0;
-	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
 }
 
 /*-------Header-------*/
@@ -30,7 +31,7 @@ nav
 {
 	display: inline-block;
 	text-align: center;
-	width: 100%;
+	max-width: 100%;
 }
 
 nav a
@@ -46,17 +47,34 @@ border-top: none;
 
 /*-------Filtres-------*/
 
+.filtres
+{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.filtres p
+{
+	font-size: 22px;
+}
+
 .rechercher
 {
 	display: none;
+}
+
+.maps
+{
+	padding-right: 18px;
+	padding-left: 18px;
 }
 
 #loupe
 {
 	display: unset;
 	border: 1px solid #0065FC;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
+	border-radius: 10px;
+	padding-right: 18px;
 	background-color: #0065FC;
 	color: white;
 }
@@ -66,20 +84,9 @@ border-top: none;
 	display: inline-block;
 	border: 2.5px solid #F2F2F2;
 	border-radius: 40px;
-	padding: 4px 25px 4px 0px;
+	padding: 2px 25px 2px 0px;
 }
 
-/*-------Cards-------*/
-
-.card, .dcard
-{
-	width: 300px;
-}
-
-.cards
-{
-	width: 100%;
-}
 
 
 /*-------Blocs hébergements & Les plus populaires-------*/
@@ -89,13 +96,13 @@ border-top: none;
 	display: flex;
 	flex-direction: column-reverse;
 	flex-wrap: wrap;
-	width: 100%;
+	width: 500px;
 }
 
 .populaires
 {
 	border-radius: 0;
-	width: 100%;
+	width: 500px;
 	float: none;
 }
 
@@ -110,25 +117,28 @@ border-top: none;
 
 .card
 {
+	width: 400px;
+	height: 280px;
 	margin: 20px 0 20px 0;
 }
 
-img
+.card img
 {
 	max-width: 100%;
+	height: 150px;
 }
 
 /*-------Bloc Les plus populaires-------*/
 
 .hcard
 {
-	width: 90%;
+	width: 80%;
 	margin: 20px 0 20px 0;
 }
 
 .titre_icone
 {
-	width: 90%;
+	width: 80%;
 }
 
 /*-------Bloc Activités-------*/
@@ -137,12 +147,33 @@ img
 {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	max-width: 100%;
 }
 
 #port, #calanques
 {
 	margin-right: 0px;
+}
+
+#calanques
+{
+	margin-left: 0;
+}
+
+#port, #pomegues, #frioul, #calanques, #garde, #longchamp
+{
+	width: 400px;
+	height: 280px;
+}
+
+#port img, #pomegues img, #frioul img, #calanques img, #garde img, #longchamp img
+{
+	height: 200px;
+}
+
+#port, #frioul, #calanques
+{
+	margin-bottom: 40px;
 }
 
 /*-------Footer-------*/
@@ -153,5 +184,5 @@ footer
 	display: flex;
 	flex-direction: column;
 	padding: 40px 40px 40px 40px;
-	width: 100%;
+	max-width: 500px;
 }

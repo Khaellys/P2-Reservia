@@ -1,0 +1,69 @@
+body
+{
+	margin: auto;
+	max-width: 800px;
+}
+
+/*-------Header-------*/
+
+header
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#logo
+{
+	width: 150px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav
+{
+	display: inline-block;
+	text-align: center;
+	max-width: 100%;
+}
+
+nav a
+{
+	padding-bottom: 10px;
+}
+
+nav a:hover
+{
+border-bottom: 3px solid #0065FC;
+border-top: none;
+}
+
+/*-------Bloc Activités-------*/
+
+#activités
+{
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+}
+
+#port, #pomegues, #frioul, #calanques, #garde, #longchamp
+{
+	width: 400px;
+	height: 280px;
+}
+
+#port img, #pomegues img, #frioul img, #calanques img, #garde img, #longchamp img
+{
+	height: 200px;
+}
+
+#port, #frioul, #calanques
+{
+	margin-bottom: 40px;
+}
+
+#calanques
+{
+	margin-left: 0;
+}
