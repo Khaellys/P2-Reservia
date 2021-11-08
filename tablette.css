@@ -38,6 +38,26 @@ border-bottom: 3px solid #0065FC;
 border-top: none;
 }
 
+/*-------Filtres-------*/
+
+.filtres h1
+{
+	text-align: center;
+}
+
+.filtres p
+{
+	font-size: 22px;
+}
+
+.filtre
+{
+	display: inline-block;
+	border: 2.5px solid #F2F2F2;
+	border-radius: 40px;
+	padding: 2px 25px 2px 0px;
+}
+
 /*-------Bloc Activités-------*/
 
 #activités
