@@ -1,15 +1,13 @@
 body
 {
 	margin: auto;
-	max-width: 500px;
-	overflow-x: hidden;
+	max-width: 768px;
 }
 
 .global
 {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 500px;
+	
+	max-width: 100%;
 }
 
 /*-------Header-------*/
@@ -97,13 +95,13 @@ border-top: none;
 	display: flex;
 	flex-direction: column-reverse;
 	flex-wrap: wrap;
-	width: 500px;
+	max-width: 100%;
 }
 
 .populaires
 {
 	border-radius: 0;
-	width: 500px;
+	max-width: 100%;
 	float: none;
 }
 
@@ -191,5 +189,5 @@ footer
 	display: flex;
 	flex-direction: column;
 	padding: 40px 40px 40px 40px;
-	max-width: 500px;
+	max-width: 100%;
 }
