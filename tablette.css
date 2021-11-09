@@ -2,6 +2,14 @@ body
 {
 	margin: auto;
 	max-width: 800px;
+	overflow-x: hidden;
+}
+
+.global
+{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
 }
 
 /*-------Header-------*/
@@ -14,7 +22,7 @@ header
 
 #logo
 {
-	width: 150px;
+	width: 200px;
 	display: flex;
 	margin-left: auto;
 	margin-right: auto;
@@ -40,6 +48,12 @@ border-top: none;
 
 /*-------Filtres-------*/
 
+.filtres
+{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
 .filtres h1
 {
 	text-align: center;
@@ -48,6 +62,13 @@ border-top: none;
 .filtres p
 {
 	font-size: 22px;
+	text-align: center;
+}
+
+.maps
+{
+	padding-right: 18px;
+	padding-left: 18px;
 }
 
 .filtre
@@ -58,6 +79,50 @@ border-top: none;
 	padding: 2px 25px 2px 0px;
 }
 
+/*-------Blocs hébergements & Les plus populaires-------*/
+
+.hotels
+{
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: wrap;
+	width: 800px;
+}
+
+.populaires
+{
+	border-radius: 0;
+	width: 800px;
+	float: none;
+}
+
+/*-------Bloc Les plus populaires-------*/
+
+.titre_icone
+{
+	width: 80%;
+}
+
+.hcard
+{
+	margin: 20px 0 20px 0;
+	width: 600px;
+}
+
+.hcard img
+{
+	width: 270px;
+}
+
+/*-------Blocs hébergements-------*/
+
+.hébergements
+{
+	background-color: white;
+	flex-grow: 0;
+	margin: 0;
+}
+
 /*-------Bloc Activités-------*/
 
 #activités
@@ -65,11 +130,12 @@ border-top: none;
 	display: flex;
 	flex-direction: column;
 	max-width: 100%;
+	padding-left: 30px;
 }
 
 #port, #pomegues, #frioul, #calanques, #garde, #longchamp
 {
-	width: 400px;
+	width: 300px;
 	height: 280px;
 }
 

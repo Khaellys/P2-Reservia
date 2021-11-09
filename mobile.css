@@ -107,6 +107,19 @@ border-top: none;
 	float: none;
 }
 
+/*-------Bloc Les plus populaires-------*/
+
+.hcard
+{
+	width: 80%;
+	margin: 20px 0 20px 0;
+}
+
+.titre_icone
+{
+	width: 80%;
+}
+
 /*-------Blocs hébergements-------*/
 
 .hébergements
@@ -132,19 +145,6 @@ border-top: none;
 .hébergements span
 {
 	font-size: 22px;
-}
-
-/*-------Bloc Les plus populaires-------*/
-
-.hcard
-{
-	width: 80%;
-	margin: 20px 0 20px 0;
-}
-
-.titre_icone
-{
-	width: 80%;
 }
 
 /*-------Bloc Activités-------*/
