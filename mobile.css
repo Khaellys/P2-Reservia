@@ -2,6 +2,7 @@ body
 {
 	margin: auto;
 	max-width: 500px;
+	overflow-x: hidden;
 }
 
 .global
@@ -128,6 +129,11 @@ border-top: none;
 	height: 150px;
 }
 
+.hébergements span
+{
+	font-size: 22px;
+}
+
 /*-------Bloc Les plus populaires-------*/
 
 .hcard
@@ -148,6 +154,7 @@ border-top: none;
 	display: flex;
 	flex-direction: column;
 	max-width: 100%;
+	padding-left: 30px;
 }
 
 #port, #calanques
