@@ -82,7 +82,7 @@ padding-right: 60px;
 
 nav a:hover
 {
-border-top: 5px solid #0065FC;
+border-top: 10px solid #0065FC;
 color: #0065FC;
 padding-top: 45px;
 }
@@ -123,6 +123,7 @@ input[type=search]
 	border-bottom-right-radius: 10px;
 	background-color: #0065FC;
 	color: #FFFFFF;
+	cursor: pointer;
 }
 
 #loupe
@@ -194,7 +195,7 @@ h3
 	justify-content: space-between;
 }
 
-.hébergements, .populaires
+#hébergements, #populaires
 {
 	background-color: #F2F2F2;
 	border-radius: 20px;
@@ -202,14 +203,14 @@ h3
 	padding-top: 2%;
 }
 
-.populaires
+#populaires
 {
 	width: 660px;
 	height: 850px;
 	float: right;
 }
 
-.hébergements
+#hébergements
 {
 	flex-grow: 1;
 	margin-right: 30px;

@@ -1,13 +1,14 @@
 body
 {
 	margin: auto;
-	max-width: 768px;
+	max-width: 763px;
 }
 
 .global
 {
 	
 	max-width: 100%;
+	margin: 0;
 }
 
 /*-------Header-------*/
@@ -30,18 +31,28 @@ nav
 {
 	display: inline-block;
 	text-align: center;
-	max-width: 100%;
+	width: 100%;
+}
+
+.lien1, .lien2
+{
+	width: 50%;
 }
 
 nav a
 {
 	padding-bottom: 10px;
+	padding-top: 0;
+	display: inline-block;
 }
 
 nav a:hover
 {
+display: inline-block;
 border-bottom: 3px solid #0065FC;
 border-top: none;
+width: 100%;
+
 }
 
 /*-------Filtres-------*/
@@ -98,29 +109,43 @@ border-top: none;
 	max-width: 100%;
 }
 
-.populaires
+/*-------Propriétés cards-------*/
+
+.cards
 {
-	border-radius: 0;
-	max-width: 100%;
-	float: none;
+	display: flex;
+	flex-direction: column;
 }
 
 /*-------Bloc Les plus populaires-------*/
 
-.hcard
+#populaires
 {
-	width: 80%;
-	margin: 20px 0 20px 0;
+	border-radius: 0;
+	width: inherit;
+	float: none;
 }
 
 .titre_icone
 {
-	width: 80%;
+	width: 97%;
+}
+
+.hcard
+{
+	width: 97%;
+	margin: 20px 0 20px 0;
+}
+
+.hcard img
+{
+	width: 45%;
+	height: 100%;
 }
 
 /*-------Blocs hébergements-------*/
 
-.hébergements
+#hébergements
 {
 	background-color: white;
 	flex-grow: 0;
@@ -129,18 +154,18 @@ border-top: none;
 
 .card
 {
-	width: 400px;
-	height: 280px;
+	width: 97%;
+	height: 360px;
 	margin: 20px 0 20px 0;
 }
 
 .card img
 {
 	max-width: 100%;
-	height: 150px;
+	height: 220px;
 }
 
-.hébergements span
+#hébergements span
 {
 	font-size: 22px;
 }
@@ -155,6 +180,11 @@ border-top: none;
 	padding-left: 30px;
 }
 
+.dcard
+{
+	width: 97%;
+}
+
 #port, #calanques
 {
 	margin-right: 0px;
@@ -167,7 +197,6 @@ border-top: none;
 
 #port, #pomegues, #frioul, #calanques, #garde, #longchamp
 {
-	width: 400px;
 	height: 280px;
 }
 
