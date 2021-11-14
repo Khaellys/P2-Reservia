@@ -95,6 +95,16 @@ border-top: none;
 	flex-direction: column;
 }
 
+.small
+{
+	display: none;
+}
+
+.medium
+{
+	display: unset;
+}
+
 /*-------Bloc Les plus populaires-------*/
 
 #populaires
@@ -117,7 +127,7 @@ border-top: none;
 
 .hcard img
 {
-	width: 270px;
+	width: 320px;
 }
 
 /*-------Blocs hébergements-------*/

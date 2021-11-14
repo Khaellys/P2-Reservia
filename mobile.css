@@ -52,6 +52,7 @@ display: inline-block;
 border-bottom: 3px solid #0065FC;
 border-top: none;
 width: 100%;
+padding-top: 0;
 
 }
 
@@ -115,6 +116,16 @@ width: 100%;
 {
 	display: flex;
 	flex-direction: column;
+}
+
+.small
+{
+	display: none;
+}
+
+.medium
+{
+	display: unset;
 }
 
 /*-------Bloc Les plus populaires-------*/

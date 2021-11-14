@@ -218,6 +218,12 @@ h3
 
 /*-------Propriétés et animations cards-------*/
 
+
+.medium
+{
+	display: none;
+}
+
 .cards
 {
 	display: flex;
@@ -235,7 +241,7 @@ h3
 
 .cards a:hover
 {
-	transform: scale(1.05);
+	transform: scale(1.02);
 }
 
 /*-------Bloc Hébergements-------*/
