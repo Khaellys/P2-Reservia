@@ -122,7 +122,7 @@ border-top: none;
 .hcard
 {
 	width: 97%;
-	margin: 20px 0 20px 0;
+	margin: 20px 0;
 }
 
 .hcard img
@@ -143,7 +143,7 @@ border-top: none;
 {
 	width: 97%;
 	height: 360px;
-	margin: 20px 0 20px 0;
+	margin: 20px 0;
 }
 
 .card1 img, .card2 img
@@ -159,7 +159,7 @@ border-top: none;
 	display: flex;
 	flex-direction: column;
 	max-width: 100%;
-	padding-left: 30px;
+	padding: 0 20px;
 }
 
 .dcard
@@ -185,4 +185,9 @@ border-top: none;
 #calanques
 {
 	margin-left: 0;
+}
+
+#longchamp
+{
+	margin-bottom: 60px;
 }

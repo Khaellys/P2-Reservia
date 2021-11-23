@@ -68,15 +68,15 @@ padding-top: 0;
 	font-size: 22px;
 }
 
-.rechercher
-{
-	display: none;
-}
-
 .maps
 {
 	padding-right: 18px;
 	padding-left: 18px;
+}
+
+.rechercher
+{
+	display: none;
 }
 
 #loupe
@@ -94,7 +94,7 @@ padding-top: 0;
 	display: inline-block;
 	border: 2.5px solid #F2F2F2;
 	border-radius: 40px;
-	padding: 2px 25px 2px 0px;
+	padding: 2px 25px 2px 0;
 }
 
 .infos
@@ -147,7 +147,7 @@ padding-top: 0;
 .hcard
 {
 	width: 97%;
-	margin: 20px 0 20px 0;
+	margin: 20px 0;
 }
 
 .hcard img
@@ -169,7 +169,7 @@ padding-top: 0;
 {
 	width: 97%;
 	height: 360px;
-	margin: 20px 0 20px 0;
+	margin: 20px 0;
 }
 
 .card1 img, .card2 img
@@ -190,7 +190,7 @@ padding-top: 0;
 	display: flex;
 	flex-direction: column;
 	max-width: 100%;
-	padding-left: 30px;
+	padding: 0 20px;
 }
 
 .dcard
@@ -198,9 +198,14 @@ padding-top: 0;
 	width: 97%;
 }
 
+#port
+{
+	margin-top: 20px;
+}
+
 #port, #calanques
 {
-	margin-right: 0px;
+	margin-right: 0;
 }
 
 #calanques
@@ -223,6 +228,11 @@ padding-top: 0;
 	margin-bottom: 40px;
 }
 
+#longchamp
+{
+	margin-bottom: 60px;
+}
+
 /*-------Footer-------*/
 
 footer
@@ -230,6 +240,6 @@ footer
 	background-color: #F2F2F2;
 	display: flex;
 	flex-direction: column;
-	padding: 40px 40px 40px 40px;
+	padding: 40px;
 	max-width: 100%;
 }
