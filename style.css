@@ -214,7 +214,7 @@ h3
 {
 	flex-grow: 1;
 	margin-right: 30px;
-	padding: 20px;
+	padding: 20px 30px;
 }
 
 /*-------Propriétés et animations cards-------*/
@@ -230,7 +230,7 @@ h3
 	display: flex;
 	flex-wrap: wrap;
 	align-items: stretch;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .cards a
